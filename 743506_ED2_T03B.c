@@ -380,6 +380,7 @@ int remover_tabela(Hashtable* tabela, char* pk) {
 	Chave *aux = tabela->v[hash_pos];
 
 	if(aux != NULL) {
+		// Se for remocao no comeco da lista
 		if(strcmp(aux->pk, pk) == 0) {
 			char * registro = ARQUIVO + TAM_REGISTRO*aux->rrn;
 
@@ -391,6 +392,7 @@ int remover_tabela(Hashtable* tabela, char* pk) {
 			free(aux);
 			return 1;
 		} else {
+			// Se nao, continua procurando
 			while(aux->prox != NULL) {
 				if(strcmp(aux->prox->pk, pk) == 0) {
 					Chave *trash = aux->prox;
@@ -445,13 +447,10 @@ void liberar_tabela(Hashtable* tabela) {
 		return;
 
 	for (int i = 0; i < tabela->tam; i++) {
-		Chave *aux = tabela->v[i];
-
-		while(aux != NULL) {
-			remover_tabela(tabela, aux->pk);
-			aux = aux->prox;
-		}
+		while(tabela->v[i] != NULL)
+			remover_tabela(tabela, tabela->v[i]->pk);
 	}
+
 	free(tabela->v);
 }
 
