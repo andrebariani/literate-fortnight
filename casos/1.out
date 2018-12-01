@@ -1,70 +1,70 @@
-Registro GEMS230917 inserido com sucesso. Numero de colisoes: 0.
+Registro GEMS230917 inserido com sucesso.
 
-Registro MOLO301217 inserido com sucesso. Numero de colisoes: 0.
+Registro MOLO301217 inserido com sucesso.
 
-Registro TEWA090116 inserido com sucesso. Numero de colisoes: 0.
+Registro TEWA090116 inserido com sucesso.
 
-Registro PRIN080918 inserido com sucesso. Numero de colisoes: 0.
+Registro PRIN080918 inserido com sucesso.
 
-Registro FOCO170912 inserido com sucesso. Numero de colisoes: 0.
-
-********************************LISTAR********************************
-[0] Livre
-[1] Ocupado: FOCO170912
-[2] Livre
-[3] Livre
-[4] Livre
-[5] Livre
-[6] Livre
-[7] Livre
-[8] Livre
-[9] Ocupado: GEMS230917
-[10] Livre
-[11] Ocupado: MOLO301217
-[12] Livre
-[13] Ocupado: PRIN080918
-[14] Livre
-[15] Livre
-[16] Livre
-[17] Livre
-[18] Ocupado: TEWA090116
-Registro MECR251216 inserido com sucesso. Numero de colisoes: 1.
-
-Registro MEKI090716 inserido com sucesso. Numero de colisoes: 0.
-
-Registro FOEV280214 inserido com sucesso. Numero de colisoes: 1.
-
-Registro PLAS081117 inserido com sucesso. Numero de colisoes: 0.
+Registro FOCO170912 inserido com sucesso.
 
 ********************************LISTAR********************************
-[0] Livre
-[1] Ocupado: FOCO170912
-[2] Ocupado: MECR251216
-[3] Livre
-[4] Livre
-[5] Livre
-[6] Livre
-[7] Livre
-[8] Livre
-[9] Ocupado: GEMS230917
-[10] Ocupado: FOEV280214
-[11] Ocupado: MOLO301217
-[12] Livre
-[13] Ocupado: PRIN080918
-[14] Livre
-[15] Livre
-[16] Ocupado: PLAS081117
-[17] Ocupado: MEKI090716
-[18] Ocupado: TEWA090116
-Registro GEMS251215 inserido com sucesso. Numero de colisoes: 2.
+[0]
+[1] FOCO170912
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] GEMS230917
+[10]
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14]
+[15]
+[16]
+[17]
+[18] TEWA090116
+Registro MECR251216 inserido com sucesso.
 
-Registro MOMU301217 inserido com sucesso. Numero de colisoes: 0.
+Registro MEKI090716 inserido com sucesso.
 
-Registro TEWA150416 inserido com sucesso. Numero de colisoes: 0.
+Registro FOEV280214 inserido com sucesso.
 
-Registro ININ180918 inserido com sucesso. Numero de colisoes: 0.
+Registro PLAS081117 inserido com sucesso.
 
-Registro RACR291116 inserido com sucesso. Numero de colisoes: 0.
+********************************LISTAR********************************
+[0]
+[1] FOCO170912 MECR251216
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] FOEV280214 GEMS230917
+[10]
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14]
+[15]
+[16] PLAS081117
+[17] MEKI090716
+[18] TEWA090116
+Registro GEMS251215 inserido com sucesso.
+
+Registro MOMU301217 inserido com sucesso.
+
+Registro TEWA150416 inserido com sucesso.
+
+Registro ININ180918 inserido com sucesso.
+
+Registro RACR291116 inserido com sucesso.
 
 ********************************BUSCAR********************************
 ININ180918
@@ -74,13 +74,13 @@ INTEL
 18
 1987.90
 PROCESSADOR HARDWARE GAMER 
-Registro PLGI280917 inserido com sucesso. Numero de colisoes: 1.
+Registro PLGI280917 inserido com sucesso.
 
-Registro MOAM081014 inserido com sucesso. Numero de colisoes: 0.
+Registro MOAM081014 inserido com sucesso.
 
-Registro FOEV200216 inserido com sucesso. Numero de colisoes: 8.
+Registro FOEV200216 inserido com sucesso.
 
-Registro GEAS271016 inserido com sucesso. Numero de colisoes: 0.
+Registro GEAS271016 inserido com sucesso.
 
 ********************************BUSCAR********************************
 RACR291116
@@ -91,22 +91,22 @@ CRUCIAL
 0576.95
 MEMORIA RAM HARDWARE 
 ********************************LISTAR********************************
-[0] Ocupado: MOMU301217
-[1] Ocupado: FOCO170912
-[2] Ocupado: MECR251216
-[3] Ocupado: ININ180918
-[4] Ocupado: TEWA150416
-[5] Ocupado: PLGI280917
-[6] Ocupado: MOAM081014
-[7] Ocupado: FOEV200216
-[8] Ocupado: GEAS271016
-[9] Ocupado: GEMS230917
-[10] Ocupado: FOEV280214
-[11] Ocupado: MOLO301217
-[12] Ocupado: GEMS251215
-[13] Ocupado: PRIN080918
-[14] Ocupado: RACR291116
-[15] Livre
-[16] Ocupado: PLAS081117
-[17] Ocupado: MEKI090716
-[18] Ocupado: TEWA090116
+[0] MOMU301217
+[1] FOCO170912 MECR251216
+[2]
+[3] ININ180918
+[4] PLGI280917 TEWA150416
+[5]
+[6] MOAM081014
+[7]
+[8] GEAS271016
+[9] FOEV280214 GEMS230917
+[10] GEMS251215
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14] RACR291116
+[15]
+[16] PLAS081117
+[17] MEKI090716
+[18] FOEV200216 TEWA090116

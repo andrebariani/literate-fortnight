@@ -1,22 +1,22 @@
-Registro GEMS230917 inserido com sucesso. Numero de colisoes: 0.
+Registro GEMS230917 inserido com sucesso.
 
-Registro MOLO301217 inserido com sucesso. Numero de colisoes: 1.
+Registro MOLO301217 inserido com sucesso.
 
-Registro TEWA090116 inserido com sucesso. Numero de colisoes: 0.
+Registro TEWA090116 inserido com sucesso.
 
-Registro PRIN080918 inserido com sucesso. Numero de colisoes: 1.
+Registro PRIN080918 inserido com sucesso.
 
-Registro FOCO170912 inserido com sucesso. Numero de colisoes: 0.
+Registro FOCO170912 inserido com sucesso.
 
 ********************************LISTAR********************************
-[0] Livre
-[1] Ocupado: TEWA090116
-[2] Ocupado: GEMS230917
-[3] Ocupado: MOLO301217
-[4] Ocupado: PRIN080918
-[5] Ocupado: FOCO170912
-[6] Livre
-[7] Livre
-[8] Livre
-[9] Livre
-[10] Livre
+[0]
+[1] TEWA090116
+[2] GEMS230917 MOLO301217
+[3] PRIN080918
+[4]
+[5] FOCO170912
+[6]
+[7]
+[8]
+[9]
+[10]
