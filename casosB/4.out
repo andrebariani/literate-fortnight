@@ -1,0 +1,110 @@
+Registro GEGI200118 inserido com sucesso.
+
+Registro RAGI180417 inserido com sucesso.
+
+Registro I7MS161015 inserido com sucesso.
+
+Registro I3CR160717 inserido com sucesso.
+
+********************************BUSCAR********************************
+I7MS161015
+I7 - 8700
+MSI
+16/10/06
+15
+0163.01
+FONTE HARDWARE HD PLACA DE VIDEO 
+Registro GEGI200918 inserido com sucesso.
+
+Registro TEAS150215 inserido com sucesso.
+
+********************************BUSCAR********************************
+Registro(s) nao encontrado!
+Registro RAAS140816 inserido com sucesso.
+
+Registro PLGI120318 inserido com sucesso.
+
+********************************LISTAR********************************
+[0]
+[1]
+[2]
+[3] GEGI200918
+[4]
+[5]
+[6]
+[7] TEAS150215
+[8] GEGI200118 PLGI120318
+[9] RAGI180417
+[10]
+[11]
+[12]
+[13] I7MS161015
+[14]
+[15]
+[16] RAAS140816
+[17]
+[18]
+[19]
+[20] I3CR160717
+[21]
+[22]
+Registro RAIN100116 inserido com sucesso.
+
+Registro I5GI030714 inserido com sucesso.
+
+Registro GEKI241215 inserido com sucesso.
+
+Registro TEWA190116 inserido com sucesso.
+
+Registro MOCO060517 inserido com sucesso.
+
+Registro FOCR030817 inserido com sucesso.
+
+Registro MOMS211017 inserido com sucesso.
+
+Registro HDCO001018 inserido com sucesso.
+
+Registro GEAM050216 inserido com sucesso.
+
+Registro GEEV231218 inserido com sucesso.
+
+Registro TEMS100217 inserido com sucesso.
+
+Registro FOCO020815 inserido com sucesso.
+
+Registro HDWA000415 inserido com sucesso.
+
+Registro I7CO170714 inserido com sucesso.
+
+Registro I3AS060315 inserido com sucesso.
+
+Registro GEIN020218 inserido com sucesso.
+
+ERRO: Ja existe um registro com a chave primaria: GEIN020218.
+
+**********************EXCLUIR*********************
+OPERACAO REALIZADA COM SUCESSO!
+********************************LISTAR********************************
+[0] FOCR030817 I5GI030714
+[1]
+[2]
+[3] GEGI200918
+[4] I3AS060315
+[5] FOCO020815 MOMS211017
+[6]
+[7] TEAS150215
+[8] GEGI200118 HDCO001018 PLGI120318
+[9] RAGI180417 RAIN100116
+[10]
+[11] GEAM050216
+[12] MOCO060517
+[13] GEKI241215 TEMS100217
+[14] HDWA000415
+[15]
+[16] RAAS140816
+[17] TEWA190116
+[18] GEEV231218
+[19]
+[20] I3CR160717
+[21] GEIN020218
+[22] I7CO170714

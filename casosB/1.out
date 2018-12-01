@@ -1,0 +1,112 @@
+Registro GEMS230917 inserido com sucesso.
+
+Registro MOLO301217 inserido com sucesso.
+
+Registro TEWA090116 inserido com sucesso.
+
+Registro PRIN080918 inserido com sucesso.
+
+Registro FOCO170912 inserido com sucesso.
+
+********************************LISTAR********************************
+[0]
+[1] FOCO170912
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] GEMS230917
+[10]
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14]
+[15]
+[16]
+[17]
+[18] TEWA090116
+Registro MECR251216 inserido com sucesso.
+
+Registro MEKI090716 inserido com sucesso.
+
+Registro FOEV280214 inserido com sucesso.
+
+Registro PLAS081117 inserido com sucesso.
+
+********************************LISTAR********************************
+[0]
+[1] FOCO170912 MECR251216
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9] FOEV280214 GEMS230917
+[10]
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14]
+[15]
+[16] PLAS081117
+[17] MEKI090716
+[18] TEWA090116
+Registro GEMS251215 inserido com sucesso.
+
+Registro MOMU301217 inserido com sucesso.
+
+Registro TEWA150416 inserido com sucesso.
+
+Registro ININ180918 inserido com sucesso.
+
+Registro RACR291116 inserido com sucesso.
+
+********************************BUSCAR********************************
+ININ180918
+INTEL CORE I7-8400 8GE
+INTEL
+18/09/2018
+18
+1987.90
+PROCESSADOR HARDWARE GAMER 
+Registro PLGI280917 inserido com sucesso.
+
+Registro MOAM081014 inserido com sucesso.
+
+Registro FOEV200216 inserido com sucesso.
+
+Registro GEAS271016 inserido com sucesso.
+
+********************************BUSCAR********************************
+RACR291116
+RAM 16GB 2400MHZ DDR4
+CRUCIAL
+29/11/2017
+16
+0576.95
+MEMORIA RAM HARDWARE 
+********************************LISTAR********************************
+[0] MOMU301217
+[1] FOCO170912 MECR251216
+[2]
+[3] ININ180918
+[4] PLGI280917 TEWA150416
+[5]
+[6] MOAM081014
+[7]
+[8] GEAS271016
+[9] FOEV280214 GEMS230917
+[10] GEMS251215
+[11] MOLO301217
+[12]
+[13] PRIN080918
+[14] RACR291116
+[15]
+[16] PLAS081117
+[17] MEKI090716
+[18] FOEV200216 TEWA090116

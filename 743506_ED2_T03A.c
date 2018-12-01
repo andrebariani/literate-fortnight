@@ -310,9 +310,28 @@ int  alterar(Hashtable tabela) {
 	while (1) {
 		scanf("%[^\n]%*c", desconto);
 
+		if(strlen(desconto) != 3) {
+			printf(CAMPO_INVALIDO);
+			continue;
+		}
+
+		int j = 0;
+		int contem_letra = 0;
+		while(j < 3) {
+			if(isdigit(desconto[j]) == 0) {
+				contem_letra = 1;
+			}
+			j++;
+		}
+
+		if(contem_letra) {
+			printf(CAMPO_INVALIDO);
+			continue;
+		}
+
 		int d = atoi(desconto);
 
-		if(strlen(desconto) == 3 && d >= 0 && d <= 100) {
+		if(d >= 0 && d <= 100) {
 			break;
 		} else {
 			printf(CAMPO_INVALIDO);
