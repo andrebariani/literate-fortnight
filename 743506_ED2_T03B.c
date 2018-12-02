@@ -219,17 +219,15 @@ void carregar_arquivo() {
 }
 
 void carregar_tabela(Hashtable* tabela) {
-    int nregistros = strlen(ARQUIVO) / TAM_REGISTRO;
+    nregistros = strlen(ARQUIVO) / TAM_REGISTRO;
 
 	for (int i = 0; i <	nregistros; i++) {
-
-		char * registro = ARQUIVO + i*TAM_REGISTRO;
-
-		if(registro[0] == '*' && registro[1] == '|')
-			continue;
-
 		Produto aux = recuperar_registro(i);
-		inserir_tabela(tabela, aux.pk, i, 0);
+		if(busca_tabela(*tabela, aux.pk) == NULL) {
+			inserir_tabela(tabela, aux.pk, i, 0);
+		} else {
+			printf(ERRO_PK_REPETIDA, aux.pk);
+		}
 	}
 }
 
@@ -397,7 +395,7 @@ int remover_tabela(Hashtable* tabela, char* pk) {
 				if(strcmp(aux->prox->pk, pk) == 0) {
 					Chave *trash = aux->prox;
 
-					char * registro = ARQUIVO + TAM_REGISTRO*aux->prox->rrn;
+					char * registro = ARQUIVO + TAM_REGISTRO*trash->rrn;
 
 					registro[0] = '*';
 					registro[1] = '|';
@@ -462,7 +460,6 @@ short hash(const char* chave, int tam) {
 	return aux % tam;
 }
 
-/*Auxiliar para a função de hash*/
 int is_prime(int a) {
 	if(a < 2)
 		return 0;
@@ -481,6 +478,7 @@ int prox_primo(int a) {
 	return a;
 }
 
+/*Auxiliar para a função de hash*/
 short f(char x)
 {
     return (x < 59) ? x - 48 : x - 54;

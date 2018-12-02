@@ -225,17 +225,16 @@ void carregar_arquivo() {
 }
 
 void carregar_tabela(Hashtable* tabela) {
-    int nregistros = strlen(ARQUIVO) / TAM_REGISTRO;
+    nregistros = strlen(ARQUIVO) / TAM_REGISTRO;
 
 	for (int i = 0; i < nregistros; i++) {
-
-		char * registro = ARQUIVO + i*TAM_REGISTRO;
-
-		if(registro[0] == '*' && registro[1] == '|')
-			continue;
-
 		Produto aux = recuperar_registro(i);
-		inserir_tabela(tabela, aux.pk, i, 0);
+		if(busca_tabela(*tabela, aux.pk) == -1) {
+			if(!inserir_tabela(tabela, aux.pk, i, 0))
+				printf(ERRO_TABELA_CHEIA);
+		} else {
+			printf(ERRO_PK_REPETIDA, aux.pk);
+		}
 	}
 }
 
